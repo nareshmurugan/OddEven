@@ -1,0 +1,99 @@
+*{
+    cursor: default;
+    user-select: none;
+}
+.heading{
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}
+.tittle{
+    width: 500px;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: auto;
+    border: 5px solid red;
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+}
+#cir{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid red;
+    animation: ani infinite 2s;
+}
+
+@keyframes ani {
+    form{
+        border:solid red;
+    }
+    to{
+        border: solid green;
+    }
+}
+
+.player{
+    margin: auto;
+    height: fit-content;
+    margin-top: 80px;
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+}
+.player1{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.player2{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+#res{
+    
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+#play{
+    cursor:pointer;
+    padding: 3px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#refresh{
+    cursor: pointer;
+    padding: 3px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.btn{
+    margin: auto;
+    width: 550px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#refresh:hover{
+    opacity: 0.92;
+}
+#play:hover{
+    opacity: 0.92;
+}

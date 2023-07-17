@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body  style="background: black;">
+    <div class="heading" style="color: red; font-size: 30px; font-weight: bold;">(:!! ODD or EVEN !!:)</div>
+    <div class="tittle">
+        <h3 id="h1" style="color:red ;">Player 1</h3>
+        <h3 id="h2" style="color: red;">Player 2</h3>
+    </div>
+    <div class="container">
+        <div class="player">
+        <div class="player1" id="p1">
+            <div id="cir"></div>
+            <div id="cir"></div>
+            <div id="cir"></div>
+            <div id="cir"></div>
+            <div id="cir"></div>
+        </div>
+        <div class="score" id="score" style="color: red; font-size: 20px; margin-top: 6px;"> 0-0</div>
+        <div class="player2" id="p2">
+            <div id="cir"></div>
+            <div id="cir"></div>
+            <div id="cir"></div>
+            <div id="cir"></div>
+            <div id="cir"></div>
+        </div>
+        </div>
+        </div>
+        <div id="res" style="background: red; margin-top: 40px; font-size: 25px; padding: 5px; ">Wait for the Result!!!</div>
+        <div class="btn">
+            <input type="button" id="play" onclick="playoddeven()" value="Play" style="background: red; ">
+            <input type="button" id="refresh" onclick="window.location.reload()" value="Refresh" style="background: red;">
+    </div>
+</body>
+</html>
